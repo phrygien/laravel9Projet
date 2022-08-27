@@ -13,9 +13,12 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="themify-icons/themifi-icons.css">
+    <link rel="stylesheet" href="{{ asset('datatables/jquery.dataTables.min.css') }}">
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <script src="{{ asset('jquery/jquery-3.5.1.js') }}"></script>
+    <script src="{{ asset('jquery/jquery.dataTables.min.js') }}"></script>
 </head>
 <body>
     <div id="app">
